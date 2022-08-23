@@ -2,6 +2,8 @@ import React from "react";
 import Logo from './../../assets/images/logo/logo5.png';
 import Img2 from './../../assets/images/logo/2.png';
 import Nissan from './../../assets/images/logo/nissan.png';
+import BMW from './../../assets/images/logo/bmw.png';
+import mercedes from './../../assets/images/logo/mercedes.png';
 function Home() {
     return (
 
@@ -79,12 +81,40 @@ function Home() {
   </div>
 </div>
 
-<div class="grid grid-cols-4 gap-4 mt-16">
+<div class="grid grid-cols-9 gap-4 mt-16">
   <div>
-    {/*<img src={Nissan} width="100"></img> will be used later and*/}
+    
   </div>
   
-  <div>09</div>
+  <div>
+  
+  </div>
+
+  
+
+  <div>
+
+  <img src={Nissan} width="100"></img>
+  </div>
+
+  <div>
+  <img src={BMW} width="100"></img>
+  </div>
+
+  <div>
+  <img src={mercedes} width="100"></img>
+  </div>
+
+  <div>
+  <img src={Nissan} width="100"></img>
+  </div>
+
+  <div>
+  <img src={Nissan} width="100"></img>
+  </div>
+
+  
+
 </div>
       </div>
     );
