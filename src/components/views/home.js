@@ -4,6 +4,7 @@ import Img2 from './../../assets/images/logo/2.png';
 import Nissan from './../../assets/images/logo/nissan.png';
 import BMW from './../../assets/images/logo/bmw.png';
 import mercedes from './../../assets/images/logo/mercedes.png';
+import ford from './../../assets/images/logo/ford.png';
 function Home() {
     return (
 
@@ -106,7 +107,7 @@ function Home() {
   </div>
 
   <div>
-  <img src={Nissan} width="100"></img>
+  <img class="mt-5" src={ford} width="200"></img>
   </div>
 
   <div>
